@@ -69,7 +69,7 @@ function Category({removeCategoryVideoResponse}) {
   return (
     <>
      <div className='d-flex justify-content-around'>
-    <h4 style={{textAlign:'justify',fontSize:'55px'}}><b> All Categories</b></h4>
+    <h6 style={{textAlign:'justify',fontSize:'50px'}}><b> All Categories</b></h6>
 
     <button className='btn bg-secondary  rounded-circle'  onClick={handleShow} ><i className="fa-solid fa-plus"></i></button>
 </div>

@@ -42,7 +42,7 @@ const handleCategoryVideo = async(e)=>{
     <>
     <Row droppable="true" onDragOver={e=>dragOverView(e)} onDrop={e=>handleCategoryVideo(e)}>
      { allVideos?.length>0? allVideos?.map((video,index)=>(
-        <Col key={index} className='mb-4' sm={12} md={6} lg={4}>
+        <Col key={index} className='mb-4' sm={12} md={6} lg={3}>
         <VideoCard displayData={video} setDeleteVideoResponse={setDeleteVideoResponse} />
         </Col>
       ))
